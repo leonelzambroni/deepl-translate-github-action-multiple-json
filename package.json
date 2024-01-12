@@ -1,0 +1,22 @@
+{
+  "name": "deepl-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Estee <estee.tsw@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "vitest",
+    "local": "ts-node playground/local.ts",
+    "coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "deepl-node": "^1.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.1.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4",
+    "vitest": "^0.32.4"
+  }
+}
