@@ -1,5 +1,4 @@
 name: 'DeepL Translate Github Action Multiple JSON'
-author: 'Estee Tey'
 description: 'Translate any document using DeepL Translate API'
 
 inputs:

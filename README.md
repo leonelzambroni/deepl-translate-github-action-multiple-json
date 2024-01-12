@@ -5,6 +5,7 @@
 
 This action uses the [DeepL Translate API](https://github.com/DeepLcom/deepl-node) to translate multiple JSON files in the same directory
 
+This is based on Estee Tey's [DeepL Translate Github Action](https://github.com/marketplace/actions/deepl-translate-github-action)
 ## Inputs
 
 | Name                       | Description                                                                                                                                                                                       | Required |

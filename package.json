@@ -2,7 +2,6 @@
   "name": "deepl-demo",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Estee <estee.tsw@gmail.com>",
   "license": "MIT",
   "scripts": {
     "start": "ts-node src/index.ts",
