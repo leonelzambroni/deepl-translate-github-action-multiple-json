@@ -29,7 +29,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: DeepL Translate Github Action Multiple JSON Files
-        uses: leonelzambroni/deepl-translate-github-action@0.1.0
+        uses: leonelzambroni/deepl-translate-github-action-multiple-json@0.7.0
         with:
           target_languages: zh,ja
           input_file_path: docs/simple/en/
