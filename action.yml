@@ -62,6 +62,7 @@ runs:
         fi
 
     - name: Create Branch, Commit, and Open Pull Request
+      shell: bash
       run: |
         branch_name="translation-${{ github.sha }}"
         git checkout -b $branch_name
